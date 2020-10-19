@@ -1,4 +1,7 @@
 language: go
+arch:
+  - amd64
+  - ppc64le
 sudo: false
 env:
   # Turn off go module support, as the go.sum files in go/ and go/codec/
